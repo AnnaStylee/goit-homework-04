@@ -205,6 +205,21 @@
   background: var(--accent-color, #404bbf);
 }
 
+.page-hero {
+  background-color: rgba(46, 47, 66, 0.7);
+  background-image: url(../images/header/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    )
+    url(../images/header/people-office.jpg);
+}
+
 /* ============================================== */
 
 /* ====================about ==============*/
@@ -305,6 +320,33 @@
 
 .gallery-items {
   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.team-wrapper {
+}
+
+socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+margin-bottom: 8px;
+поставить на <p > team-wrapper {
+}
+
+socials-item {
+}
+
+socials-links {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: ;
+  border-radius: 50%;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* =================FOOTER================ */
