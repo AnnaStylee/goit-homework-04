@@ -14,7 +14,7 @@
   --accent-color: #404bbf;
   --border-color: #e7e9fc;
   --customers-color: #8e8f99;
-  --fill: #f4f4fd;
+  --fill-color: #f4f4fd;
 }
 
 .body {
@@ -484,8 +484,8 @@
   background-color: #4d5ae5;
 }
 
-.svg-color {
-  color: var(--fill);
+.icon {
+  color: var(--fill-color);
 }
 
 .footer-link-icon:hover,
