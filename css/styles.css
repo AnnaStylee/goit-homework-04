@@ -452,7 +452,7 @@
 
 .footer-wrapper {
   display: flex;
-  align-self: baseline;
+  align-items: baseline;
 }
 
 .social-subtitle {
@@ -482,10 +482,10 @@
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
-  color: var(--fill);
 }
 
 .svg-color {
+  color: var(--fill);
 }
 
 .footer-link-icon:hover,
